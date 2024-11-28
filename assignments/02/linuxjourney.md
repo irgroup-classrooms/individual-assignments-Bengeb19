@@ -98,7 +98,7 @@
     How can you exit from the shell?
     ```
     exit
-    ``
+    ```
 
 
 
