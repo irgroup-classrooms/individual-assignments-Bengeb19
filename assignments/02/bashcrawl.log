@@ -1,0 +1,300 @@
+  382  echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> /Users/gengebhardt/.zprofile
+  383  eval "$(/opt/homebrew/bin/brew shellenv)"
+  384  brew help
+  385  brew install wget
+  386  wget https://librarycarpentry.org/lc-shell/data/shell-lesson.zip
+  387  unzip shell-lesson
+  388  head -n 3 2014-01_JA.tsv
+  389  touch tasks.sh
+  390  chmod +x tasks.sh
+  391  head -n 3 2014-01_JA.tsv
+  392  or file in *.tsv; do\n    echo "$file: $(wc -l < "$file") Zeilen"\ndone
+  393  cd /Users/gengebhardt/Downloads/bashcrawl-stable-2024.02.09/entrance 
+  394  cat scroll
+  395  ls
+  396  cd <directory>
+  397  pwd
+  398  cd cellar
+  399  ls
+  400  cd treasure
+  401  cd armoury
+  402  ls
+  403  cd potion
+  404  cd scroll
+  405  ls
+  406  cd chamber
+  407  cd scroll
+  408  cat scroll
+  409  cat spell
+  410  ./spell
+  411  ln -fs ../../../chapel/courtyard/aviary/hall portal
+  412  cat portal
+  413  cd portal
+  414  ls
+  415  ls -l portal
+  416  portal
+  417  ./portal
+  418  cd ../../../chapel
+  419  cd ../../..
+  420  cd ..
+  421  cd entrance
+  422  ls
+  423  cat scroll
+  424  cd cellar
+  425  ls
+  426  cat scroll
+  427  alias ls='ls -F'
+  428  ls
+  429  ./treasure
+  430  export I=amulet,$I
+  431  echo $I
+  432  cd armoury
+  433  ls
+  434  ./potion
+  435  export HP=15
+  436  echo HP
+  437  echo $HP
+  438  ls
+  439  ./scroll
+  440  cat scroll
+  441  ./treasure
+  442  export I=sword,$I
+  443  echo $I
+  444  ls
+  445  cd chamber
+  446  ls
+  447  history
+  448  cat scroll
+  449  pwd
+  450  ls
+  451  ./spell
+  452  ./statue
+  453  echo $HP
+  454  HP=HP-5
+  455  echo $HP
+  456  let "HP=HP-5"
+  457  export HP=15
+  458  let "HP=HP-5"
+  459  echo $HP
+  460  ls
+  461  ./treasure
+  462  export I=diamonds,$I
+  463  echo $I
+  464  ls
+  465  cd portal
+  466  ls
+  467  ./monster
+  468  cd /Users/gengebhardt/Downloads/bashcrawl-stable-2024.02.09/entrance 
+  469  cat scroll
+  470  ls
+  471  cat scroll
+  472  ls
+  473  cd cellar
+  474  ls
+  475  cat scroll
+  476  ls -F
+  477  alias ls='ls -F'
+  478  cd treasure
+  479  cd armoury
+  480  ls
+  481  cat scroll
+  482  cd ..
+  483  ls
+  484  ./treasure#
+  485  ./treasure
+  486  export I=amulet,$I
+  487  ls
+  488  cd ..
+  489  ls
+  490  cd chapel
+  491  ls
+  492  cat scroll
+  493  cd ..
+  494  ls
+  495  cd vault
+  496  ls
+  497  cat scroll
+  498  ./glass
+  499  cd ..
+  500  ls
+  501  cd cellar
+  502  ls
+  503  cd armoury
+  504  ls
+  505  ./reasure
+  506  ./treasure
+  507  export I=sword,$I
+  508  ls
+  509  ./potion
+  510  export HP=15
+  511  echo $HP
+  512  ls
+  513  cd chamber
+  514  ls
+  515  ./treasure
+  516  export I=coins,$I
+  517  echo $I
+  518  ls
+  519  cat scroll
+  520  pwd#
+  521  pwd
+  522  ./spell
+  523  pwd
+  524  ln -fs /Users/gengebhardt/Downloads/bashcrawl-stable-2024.02.09/entrance/cellar/armoury/chamber
+  525  ls
+  526  cd chamber
+  527  ls
+  528  ln -fs ../../../chapel/courtyard/aviary/hall portal
+  529  ls
+  530  cd portal
+  531  ls
+  532  cd library
+  533  ls
+  534  cat scroll
+  535  ./tome
+  536  ls
+  537  cd ..
+  538  ls
+  539  ./monster
+  540  ls
+  541  ./treasure
+  542  ls
+  543  export I=crown,I$
+  544  echo $I
+  545  echo $I
+  546  export I=crown,$I
+  547  echo $I
+  548  ls
+  549  .carcass
+  550  ./carcass
+  551  ls
+  552  cd libary
+  553  cd libary
+  554  ls
+  555  cd ..
+  556  ls
+  557  ./statue
+  558  ls
+  559  cd ..
+  560  cd ..
+  561  ls
+  562  cd ..
+  563  ls
+  564  cd ..
+  565  ls
+  566  cd chapel
+  567  ls
+  568  cd courtyard
+  569  ls
+  570  cd aviary
+  571  ls
+  572  cd hall
+  573  ls
+  574  export I=sword,$I
+  575  echo $I
+  576  export I=coins,$I
+  577  echo $I
+  578  export HP=15
+  579  echo $I
+  580  echo HP
+  581  export I=amulet,$I
+  582  echo $HP
+  583  export HP=10000
+  584  echo $HP
+  585  ls
+  586  ./carcass
+  587  cd ..
+  588  ls
+  589  ./crystal
+  590  I=crystal,$I
+  591  echo $I
+  592  ls
+  593  ./penguin
+  594  ls
+  595  cat scroll
+  596  cd h
+  597  ls
+  598  cd hall
+  599  ls
+  600  cd h
+  601  ls
+  602  cd ..
+  603  ls
+  604  cd ..
+  605  ls
+  606  ./fountain
+  607  ls
+  608  ./rags
+  609  export I=rags,fish,$I
+  610  ls
+  611  cat scroll
+  612  cd ..
+  613  ls
+  614  ./altar
+  615  ls
+  616  cat scroll
+  617  cd ..
+  618  ls
+  619  cd vault
+  620  ls
+  621  cat scroll
+  622  ./glass
+  623  echo $I
+  624  ls
+  625  ./glass
+  626  export I=$(sed 's/crystal,//' <<< $I)
+  627  ls
+  628  cd stronhold
+  629  cd stronghold
+  630  ls
+  631  cat scroll
+  632  cat ob1
+  633  cat orb1
+  634  ./goblet
+  635  cp orb1 orb3
+  636  cp orb1 orb2
+  637  ls
+  638  ./goblet
+  639  export I=goblet,$I
+  640  echo %I
+  641  echo $I
+  642  ls
+  643  cd nursery
+  644  ös
+  645  ls
+  646  cat scroll
+  647  ./spell
+  648  ls
+  649  cd lab
+  650  ls
+  651  cat scroll
+  652  ./ghost
+  653  ls
+  654  ./treasure
+  655  export I=emerald,$I
+  656  ls
+  657  ./patinum
+  658  ./platinum
+  659  export I=platinum,$I
+  660  ls
+  661  cat scroll
+  662  ls
+  663  cd ..
+  664  ls
+  665  cd ..
+  666  ls
+  667  cd ..
+  668  ls
+  669  cd ..
+  670  ls
+  671  cd /Users/gengebhardt/Downloads/bashcrawl-stable-2024.02.09/entrance/chapel/courtyard/aviary
+  672  ls
+  673  ./penguin
+  674  export I=$(sed "s/fish//; s/,,/,/" <<< $I)
+  675  ls
+  676  history -100 >> bashcrawl.log
+  677  cd ...
+  678  cd
+  679  history -100 >> bashcrawl.log
+  680  history -300 >> bashcrawl.log
+  681  rm bashcrawl.log
