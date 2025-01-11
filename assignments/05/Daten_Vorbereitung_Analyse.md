@@ -30,3 +30,42 @@ Zeilen mit leeren Dialogen wurden aus dem Dataset entfernt, da diese keine relev
 
 ## 3. Export der bereinigten Daten
 Das bereinigte Dataset wurde in die Datei `lotr_scripts_clean.csv` exportiert, welche die sauberen und korrekt formatierten Daten enthält, die für die Analyse verwendet werden können.
+
+---
+
+# Analyse der bereinigten Daten
+
+## a) Gesamtanzahl der Dialogzeilen
+wc -l lotr_scripts_clean.csv
+Die Gesamtzahl der Dialogzeilen im bereinigten Dataset beträgt **[2386]**.
+
+## b) Einzigartige Wörter im Dialog
+awk -F, '{print $2}' lotr_scripts_clean.csv | tr ' ' '\n' | sort | uniq | wc -l
+Es gibt **[4364]** einzigartige Wörter in der Dialog-Spalte.
+
+## c) Verteilung der Dialoge auf die Filme
+
+Die Verteilung der Dialoge auf die drei Filme sieht wie folgt aus:
+
+- **The Return of the King**: [Anzahl] Dialoge
+- **The Two Towers**: [Anzahl] Dialoge
+- **The Fellowship of the Ring**: [Anzahl] Dialoge
+
+## d) Top 5 Charaktere in der `char`-Spalte
+awk -F, '{print $1}' lotr_scripts_clean.csv | sort | uniq -c | sort -nr | head -n 5
+Die fünf Charaktere, die am häufigsten in der `char`-Spalte vorkommen, sind:
+
+1. **[Frodo]** – [226] Dialoge
+2. **[Sam]** – [217] Dialoge
+3. **[Gandalf]** – [205] Dialoge
+4. **[Aragorn]** – [187] Dialoge
+5. **[Pippin]** – [163] Dialoge
+
+## e) Top 5 Charaktere in den Dialogen
+Die häufigsten Charaktere, die in den Dialogen selbst erwähnt werden, sind:
+
+1. **[Charakter X]** – [Anzahl] Erwähnungen
+2. **[Charakter Y]** – [Anzahl] Erwähnungen
+3. **[Charakter Z]** – [Anzahl] Erwähnungen
+4. **[Charakter W]** – [Anzahl] Erwähnungen
+5. **[Charakter V]** – [Anzahl] Erwähnungen
